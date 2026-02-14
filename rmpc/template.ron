@@ -199,10 +199,10 @@
         ),
         "tab_bar_left": Split(direction: Horizontal, panes: [
              (size: "100%", pane: Pane(Property(content: [
-                             (kind: Text(" "), style: (fg: "{{colors.primary_fixed_dim.default.hex}}", modifiers: "Bold")),
-                             (kind: Property(Status(StateV2(playing_label: "", paused_label: "", stopped_label: ""))),
+                             (kind: Text(" "), style: (fg: "{{colors.primary_fixed_dim.default.hex}}", modifiers: "Bold")),
+                             (kind: Property(Status(StateV2(playing_label: "", paused_label: "", stopped_label: ""))),
                                  style: (fg: "{{colors.on_surface.default.hex}}")),
-                             (kind: Text("  "), style: (fg: "{{colors.primary_fixed_dim.default.hex}}", modifiers: "Bold")),
+                             (kind: Text("  "), style: (fg: "{{colors.primary_fixed_dim.default.hex}}", modifiers: "Bold")),
                              (kind: Property(Song(FileExtension)), style: (fg: "{{colors.on_surface_variant.default.hex}}")),
                              (kind: Text(" ")),
                              (kind: Property(Widget(ScanStatus)), style: (fg: "{{colors.on_surface.default.hex}}", modifiers: "Bold")),
@@ -220,9 +220,9 @@
                                  (kind: Property(Song(Channels())), style: (fg: "{{colors.on_surface_variant.default.hex}}"),
                                      default: (kind: Text("0"), style: (fg: "{{colors.on_surface_variant.default.hex}}"))),
                                  (kind: Text(" 󱡫 "),style: (fg: "{{colors.on_surface_variant.default.hex}}")),
-                                 (kind: Text(" 󱡬"), style: (fg: "{{colors.primary_fixed_dim.default.hex}}", modifiers: "Bold")),
+                                 (kind: Text(" 󱡬"), style: (fg: "{{colors.primary_fixed_dim.default.hex}}", modifiers: "Bold")),
                                  (kind: Property(Status(Volume)), style: (fg: "{{colors.on_surface.default.hex}}")),
-                                 (kind: Text("% "), style: (fg: "{{colors.primary_fixed_dim.default.hex}}", modifiers: "Bold"))
+                                 (kind: Text("% "), style: (fg: "{{colors.primary_fixed_dim.default.hex}}", modifiers: "Bold"))
                              ], align: Right))
                  ),
             ]),
@@ -256,11 +256,11 @@
             panes: [
                (size: "100%", pane: Pane(Property(content: [
                          (kind: Text("[ "),style: (fg: "{{colors.primary_fixed_dim.default.hex}}", modifiers: "Bold")),
-                         (kind: Property(Status(RepeatV2(on_label: "", off_label: "",
+                         (kind: Property(Status(RepeatV2(on_label: "", off_label: "",
                                          on_style: (fg: "{{colors.on_surface.default.hex}}", modifiers: "Bold"),
                                          off_style: (fg: "{{colors.on_surface_variant.default.hex}}", modifiers: "Bold"))))),
                          (kind: Text(" | "),style: (fg: "{{colors.primary_fixed_dim.default.hex}}", modifiers: "Bold")),
-                         (kind: Property(Status(RandomV2(on_label: "", off_label: "",
+                         (kind: Property(Status(RandomV2(on_label: "", off_label: "",
                                          on_style: (fg: "{{colors.on_surface.default.hex}}", modifiers: "Bold"),
                                          off_style: (fg: "{{colors.on_surface_variant.default.hex}}", modifiers: "Bold"))))),
                          (kind: Text(" | "),style: (fg: "{{colors.primary_fixed_dim.default.hex}}", modifiers: "Bold")),
