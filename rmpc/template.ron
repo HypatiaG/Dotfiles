@@ -18,7 +18,7 @@
     current_item_style: (fg: "{{colors.on_primary.default.hex}}", bg: "{{colors.primary.default.hex}}", modifiers: "Bold"),
     borders_style: (fg: "{{colors.primary_fixed_dim.default.hex}}", modifiers: "Bold"),
     highlight_border_style: (fg: "{{colors.primary.default.hex}}"),
-    symbols: (song: "󰝚 ", dir: "󱍙 ", playlist: "󰲸 ", marker: "* ", ellipsis: "...",
+    symbols: (song: "🎵 ", dir: "📂 ", playlist: "󰲸 ", marker: "* ", ellipsis: "...",
         song_style: (fg: "{{colors.primary_fixed_dim.default.hex}}"), 
         dir_style: (fg: "{{colors.secondary_fixed_dim.default.hex}}"),
     ),
